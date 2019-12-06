@@ -34,6 +34,7 @@
 		<Item Name="Type Defs" Type="Folder" URL="../Type Defs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Diagnostic.rtm" Type="Document" URL="../../GC-MSMSDevlopment/IonSniffer/Diagnostic.rtm"/>
 		<Item Name="Ion Sniffer NXG.vi" Type="VI" URL="../Ion Sniffer NXG.vi"/>
 		<Item Name="Test Bench.vi" Type="VI" URL="../Test Bench.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
