@@ -13,6 +13,9 @@
 		<Item Name="Config" Type="Folder" URL="../Config">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Diagnostic" Type="Folder" URL="../Diagnostic">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="FGVs" Type="Folder" URL="../FGVs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -79,9 +82,11 @@
 			<Item Name="_Global Configuration.vi" Type="VI" URL="../../GC-MSMSDevlopment/Configuration/_Global Configuration.vi"/>
 			<Item Name="_Instrument Model.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Instrument Model.ctl"/>
 			<Item Name="_Mass Range Parameters.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Mass Range Parameters.ctl"/>
+			<Item Name="_Mass Range Property.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Mass Range Property.ctl"/>
 			<Item Name="_RT Configuration 2.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Configuration 2.ctl"/>
 			<Item Name="_RT Instrument 2.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Instrument 2.ctl"/>
 			<Item Name="_RT Instrument State.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Instrument State.ctl"/>
+			<Item Name="_RT Res Type.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Res Type.ctl"/>
 			<Item Name="_Run Mode.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Run Mode.ctl"/>
 			<Item Name="_Run Module.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Run Module.ctl"/>
 			<Item Name="_Validate Path.vi" Type="VI" URL="../../GC-MSMSDevlopment/File/_Validate Path.vi"/>
