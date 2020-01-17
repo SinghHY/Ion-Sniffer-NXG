@@ -22,6 +22,9 @@
 		<Item Name="Functions" Type="Folder" URL="../Functions">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="FW Manager" Type="Folder" URL="../FW Manager">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="RT Parameters" Type="Folder" URL="../RT Parameters">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -66,6 +69,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
@@ -91,6 +95,9 @@
 			<Item Name="_Run Module.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Run Module.ctl"/>
 			<Item Name="_Validate Path.vi" Type="VI" URL="../../GC-MSMSDevlopment/File/_Validate Path.vi"/>
 			<Item Name="AcquisitionState.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Configuration/AcquisitionState.ctl"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Ion Sniffer Installer" Type="Installer">
