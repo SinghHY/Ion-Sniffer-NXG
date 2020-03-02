@@ -40,7 +40,7 @@
 		<Item Name="Type Defs" Type="Folder" URL="../Type Defs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Diagnostic.rtm" Type="Document" URL="../../GC-MSMSDevlopment/IonSniffer/Diagnostic.rtm"/>
+		<Item Name="Function Lib.lvlib" Type="Library" URL="../Function Lib.lvlib"/>
 		<Item Name="Ion Sniffer NXG.vi" Type="VI" URL="../Ion Sniffer NXG.vi"/>
 		<Item Name="Main RTM.rtm" Type="Document" URL="../Main RTM.rtm"/>
 		<Item Name="Test Bench.vi" Type="VI" URL="../Test Bench.vi"/>
@@ -96,19 +96,9 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="_Get File.vi" Type="VI" URL="../../GC-MSMSDevlopment/File/_Get File.vi"/>
-			<Item Name="_Global Configuration.vi" Type="VI" URL="../../GC-MSMSDevlopment/Configuration/_Global Configuration.vi"/>
-			<Item Name="_Instrument Model.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Instrument Model.ctl"/>
 			<Item Name="_Mass Range Parameters.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Mass Range Parameters.ctl"/>
 			<Item Name="_Mass Range Property.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Mass Range Property.ctl"/>
-			<Item Name="_RT Configuration 2.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Configuration 2.ctl"/>
-			<Item Name="_RT Instrument 2.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Instrument 2.ctl"/>
-			<Item Name="_RT Instrument State.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Instrument State.ctl"/>
 			<Item Name="_RT Res Type.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_RT Res Type.ctl"/>
-			<Item Name="_Run Mode.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Run Mode.ctl"/>
-			<Item Name="_Run Module.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Type/_Run Module.ctl"/>
-			<Item Name="_Validate Path.vi" Type="VI" URL="../../GC-MSMSDevlopment/File/_Validate Path.vi"/>
-			<Item Name="AcquisitionState.ctl" Type="VI" URL="../../GC-MSMSDevlopment/Configuration/AcquisitionState.ctl"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
